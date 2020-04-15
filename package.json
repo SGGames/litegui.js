@@ -1,0 +1,26 @@
+{
+  "name": "litegui",
+  "version": "1.0.0",
+  "description": "litegui",
+  "main": "build/litegui.js",
+  "directories": {
+    "doc": "doc",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SGGames/litegui.js.git"
+  },
+  "keywords": [
+    "litegui"
+  ],
+  "author": "jagenjo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SGGames/litegui.js/issues"
+  },
+  "homepage": "https://github.com/SGGames/litegui.js#readme"
+}
