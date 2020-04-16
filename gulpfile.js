@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
-var files = [
+var jsFiles = [
   './src/core.js',
   './src/widgets.js',
   './src/console.js',
@@ -15,17 +15,31 @@ var files = [
   './src/table.js',
   './src/inspector.js'
 ];
+
+var cssFiles = [
+  './src/css/*.css'
+]
+
 gulp.task('build', function () {
 
-  return gulp.src(files)
+  return gulp.src(jsFiles)
       .pipe(concat('litegui.js'))
       .pipe(gulp.dest('dist'));
   });
+
 gulp.task('build-min', function () {
 
-return gulp.src(files)
+return gulp.src(jsFiles)
     .pipe(concat('litegui.min.js'))
     .pipe(gulp.dest('dist'))
     .pipe(uglify())
     .pipe(gulp.dest('dist'));
 });
+
+
+gulp.task('build-css', function () {
+
+  return gulp.src(cssFiles)
+      .pipe(concat('litegui.css'))
+      .pipe(gulp.dest('dist'));
+  });

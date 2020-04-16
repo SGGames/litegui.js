@@ -8,7 +8,7 @@
     "example": "examples"
   },
   "scripts": {
-    "build": "gulp build && gulp build-min",
+    "build": "gulp build && gulp build-min && gulp build-css",
     "dev": "parcel index.html"
   },
   "repository": {
