@@ -15,6 +15,20 @@ Utils
 
 Litegui includes several commands in the utils folder to generate docs, check for errors and build minifyed versions.
 
+Install
+-------
+```
+npm install liteguijs
+```
+
+Import
+-------
+```javascript
+import LiteGUI from "liteguijs/dist/litegui";
+import "liteguijs/dist/litegui.css";
+window.LiteGUI = LiteGUI;
+```
+
 Feedback
 --------
 

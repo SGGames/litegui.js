@@ -1,7 +1,7 @@
 {
   "name": "liteguijs",
   "version": "1.0.1",
-  "description": "liteguijs is a library to create ui for editor",
+  "description": "liteguijs is a library to create ui for editor. Fork from origin to support install package via npm",
   "main": "dist/litegui.js",
   "directories": {
     "doc": "doc",
