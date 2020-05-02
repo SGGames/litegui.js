@@ -13,7 +13,8 @@ var jsFiles = [
   './src/panel.js',
   './src/dialog.js',
   './src/table.js',
-  './src/inspector.js'
+  './src/inspector.js',
+  './src/export.js'
 ];
 
 var cssFiles = [

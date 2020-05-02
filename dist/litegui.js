@@ -10335,3 +10335,4 @@ Inspector.parseColor = function(color)
 }
 
 LiteGUI.Inspector = Inspector;
+module.exports = LiteGUI;

@@ -2,7 +2,7 @@
   "name": "liteguijs",
   "version": "1.0.0",
   "description": "liteguijs is a library to create ui for editor",
-  "main": "build/litegui.js",
+  "main": "dist/litegui.js",
   "directories": {
     "doc": "doc",
     "example": "examples"
